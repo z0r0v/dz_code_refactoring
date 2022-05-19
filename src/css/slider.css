@@ -1,0 +1,36 @@
+.slide,
+.slide1,
+.slide2,
+.slide3,
+.slide4,
+.slide5 {
+  background-attachment: fixed;
+  transition: background-image 0.5s linear;
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.slide1 {
+  background-image: url(../img/slide1.jpg);
+}
+
+.slide2 {
+  background-image: url(../img/slide2.jpg);
+}
+
+.slide3 {
+  background-image: url(../img/slide3.jpg);
+}
+
+.slide4 {
+  background-image: url(../img/slide4.jpg);
+}
+
+.slide5 {
+  background-image: url(../img/slide5.jpg);
+}
+
+.hidden {
+  display: none;
+}

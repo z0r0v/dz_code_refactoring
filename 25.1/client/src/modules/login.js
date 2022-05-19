@@ -10,7 +10,7 @@ let masterId;
 let isLogged = false;
 let master;
 
-const loginName = document.getElementById("exampleInputLoggin");
+const loginName = document.getElementById("example-input-login");
 const pasword = document.getElementById("exampleInputPassword");
 const danger = "border-danger";
 const success = "border-success";
@@ -25,10 +25,10 @@ const htmlElements = {
   buttonLogout: document.querySelector(".logOut"),
   divMasterInToBook: document.querySelector(".book"),
   formButton: document.querySelector("div.col-md-auto.mt-5 > form > input"),
-  inputLogin: document.getElementById("exampleInputLoggin"),
+  inputLogin: document.getElementById("example-input-login"),
   inputPasword: document.getElementById("exampleInputPassword"),
   divMasterInfo: document.querySelector("div.col-md-auto.mt-5 > form"),
-  divNav: document.querySelector("div.divNav"),
+  divNav: document.querySelector(".top-navigation-panel"),
   divLogin: document.querySelector(".login "),
   masterInfo: document.querySelector(".masterInfo"),
   tr: document.querySelector(".executedOrder > tr"),
