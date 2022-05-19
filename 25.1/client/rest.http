@@ -1,0 +1,68 @@
+//Запрос данных
+GET https://firebasestorage.googleapis.com/v0/b/aliakseizhorau.appspot.com/o/db.json?alt=media&token=26c41fcc-b429-4364-8346-f97245ae180c/masters
+
+
+###
+//Отправка вызывает изменения
+POST https://my-server-dz25.herokuapp.com/books;
+Content-Type: application/json
+{
+    "id": 6,
+    "masterId": 2,
+    "time": "16:00",
+    "brand": "Porshe",
+    "phone": "+375293767082",
+    "name": "Vasiliy Petrovich",
+    "work": "Еiming belt replacement",
+    "registerSign": "7785AA-4",
+    "carMileage": 222000,
+    "yearIssue": 2017,
+    "priceWork": 10,
+    "priceParts": 10
+}
+
+
+###
+//PATCH используется для частичного изменения ресурса.
+PATCH  https://firebasestorage.googleapis.com/v0/b/aliakseizhorau.appspot.com/o/ex.json?alt=media&token=a40e9995-b297-4165-a016-0d76a83390c7;
+Content-Type: application/json
+ 
+  {
+    "masterId": 1,
+    "time": "13:12",
+    "brand": "BMW",
+    "phone": "+375291111111",
+    "name": "Vasiliy Petrovich",
+    "work": "Еiming belt replacement",
+    "registerSign": "7785AA-4",
+    "carMileage": 222000,
+    "yearIssue": 2017,
+    "priceWork": 10,
+    "priceParts": 10
+  }
+ 
+
+
+###
+# DELETE удаляет указанный ресурс.
+DELETE https://my-server-dz25.herokuapp.com/carsOwners/3 
+
+
+###
+//PUT заменяет все текущие представления ресурса данными запроса.
+PUT https://my-server-dz25.herokuapp.com/books/0
+Content-Type: application/json
+
+{
+    "masterId": 1,
+    "time": "13:12",
+    "brand": "BMW",
+    "phone": "+375291111111",
+    "name": "Vasiliy Petrovich",
+    "work": "Еiming belt replacement",
+    "registerSign": "7785AA-4",
+    "carMileage": 222000,
+    "yearIssue": 2017,
+    "priceWork": 10,
+    "priceParts": 10
+  }

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>DZ#25.1</title>
+  <link rel="stylesheet" href="../src/style.css" />
+  <!-- favicon -->
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/z0r0v/DZ/master/img/favico.png" type="image/png">
+  <!--  bootstrap  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../src/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- font-awesome -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- nav -->
+  <section>
+    <div class="container">
+      <div class="divNav hidden">
+        <!-- hidden -->
+        <ul class="nav justify-content-center text-uppercase font-weight-bold col-12 mt-2">
+          <li class="nav-item col-sm-12 col-lg-4 col-md-4 text-center">
+            <a class="nav-link disabled" data-mode="Master" href="#">Master Info</a>
+          </li>
+          <li class="nav-item col-sm-12 col-lg-4 col-md-4 text-center">
+            <a class="nav-link" data-mode="Auto" href="#">Auto Info</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- nav end -->
+  <!-- spiner -->
+
+  <section>
+    <div class="container">
+      <div class="col-sm-12 col-lg-12 col-md-12 offset-5">
+          <div class="lds-dual-ring hidden">
+            <span class="text-white">wait ...</span>
+          </div>
+          
+      </div>
+    </div>
+  </section>
+
+ <!-- spiner end -->
+  <!-- Login -->
+  <section>
+    <div class="container">
+      <div class="login col-md-auto mt-5">
+        <form class="col-md-8 offset-md-2 shadow-sm p-3 mb-5 bg-white rounded">
+          <h2 class="text-center">Master Login</h2>
+          <div class="form-group">
+            <label for="exampleInputLoggin">Loggin</label>
+            <input class="form-control" type="text" id="exampleInputLoggin" placeholder="Enter you loggin">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword">Password</label>
+            <input class="form-control" type="password" id="exampleInputPassword" placeholder="Enter you password">
+          </div>
+          <input type="button" class="btn btn-primary col-md-12" value="Submit">
+          <div class="help">
+            <h3>Help</h3>
+            <p>
+                User 1: </br>
+                loggin: 3767082@mail.ru</br> 
+                Password: 6055+</br>
+                </br>
+                User 2:</br>
+                loggin: zhorovalex@mail.ru</br>
+                Password: 3037+</br>
+            </p>
+          </div>
+        
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Login end -->
+  <!-- Tabs -->
+  <section>
+    <div class="container">
+      <div class="tabs mt-sm-2 mt-lg-2 mt-md-2">
+        <div class="masterInfo col-sm-12 col-md-12 col-lg-12 mt-5 hidden">
+          <!-- hidden -->
+          <details>
+            <summary>Summary</summary>
+            <main>
+              <div class="output col-sm-12 col-md-12 col-lg-12 ">
+                <div class="logOutClock row col-sm-12 col-md-12 col-lg-12 p-3 m-0">
+                  <div class="outputClock col-md-8 col-lg-8 col-sm-12 text-center"></div>
+                  <div class="col-md-4 col-lg-4 col-sm-12">
+                    <input type="button" value="log out"
+                      class="logOut btn btn-primary col-md-12 col-sm-12 col-lg-12"></input>
+                  </div>
+                </div>
+                <div class="table_scrol p-3 mt-2">
+                  <table class="table col-sm-12 col-md-12 col-lg-12">
+                    <thead class="col-sm-12 col-md-12 col-lg-12">
+                      <tr class="col-sm-12 col-md-12 col-lg-12">
+                        <th scope="col">№</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Brand</th>
+                        <th scope="col">Phone</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Work</th>
+                        <th scope="col">Submit</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </main>
+          </details>
+          <details>
+            <summary>Book To Master</summary>
+            <main>
+              <div class="book p-3 bg-white rounded">
+                <form class="bookForm">
+                  <div class="form-group">
+                    <label for="formGroupExampleInputTime">Book time</label>
+                    <input type="time" class="form-control" id="time" placeholder="Enter book time">
+                  </div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInputBrand">Car brand</label>
+                    <input type="text" class="form-control" id="brand" placeholder="Enter car brand">
+                  </div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInputPhone">Owner's phone number</label>
+                    <input type="tel" class="form-control phone_mask" id="phone"
+                      placeholder="Enter owner's phone number"></div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInputName">Owner name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter owner name">
+                  </div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInputWork">Type of work performed</label>
+                    <input type="text" class="form-control" id="work" placeholder="Enter type of work performed"></div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInputRegisterSign">Register sign</label>
+                    <input type="text" class="form-control" id="registerSign" placeholder="Enter register sign"></div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInputCarMileage">Car mileage</label>
+                    <input type="number" class="form-control" id="carMileage" placeholder="Enter car mileage"></div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInputCarMileage">Year of issue</label>
+                    <input type="number" class="form-control" id="yearIssue" placeholder="Enter car year issue"
+                      maxlength="4"></div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInputPrice">Price worke</label>
+                    <input type="number" class="form-control" id="priceWorke" placeholder="Enter price">
+                  </div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInputPrice">Price parts</label>
+                    <input type="number" class="form-control" id="priceParts" placeholder="Enter price">
+                  </div>
+                  <input type="button" class="bookButton btn btn-primary col-sm-12 col-md-6 col-lg-6 offset-md-3"
+                    value="Book">
+                </form>
+              </div>
+            </main>
+          </details>
+        </div>
+        <div class="autoInfo col-sm-12 col-md-12 col-lg-12 mt-5 hidden">
+          <!-- hidden -->
+          <details>
+            <summary>Executed order</summary>
+            <main>
+              <h3 class="carInfo"></h3>
+              <h4>Executed order:</h4>
+              <table class="table col-sm-12 col-md-12 col-lg-12 text-center">
+                <thead>
+                  <tr>
+                    <th scope="col" class="text-left">Replace/Repair</th>
+                    <th scope="col">Service time</th>
+                    <th scope="col">Total cost</th>
+                  </tr>
+                </thead>
+                <tbody class="executedOrder">
+                  <tr>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- <form>
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Mileage following replacement</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput2"
+                    placeholder="Пробег следующей замены">
+                </div>
+                <input type="button" class="bookButton btn btn-primary col-sm-12 col-md-6 col-lg-6 offset-md-3"
+                  value="Apllay">
+              </form> -->
+            </main>
+          </details>
+          <!-- <details>
+            <summary>Replacement has expired</summary>
+            <main>
+              <table class="table requiresReplacement col-sm-12 col-md-12 col-lg-12 text-center">
+                <h4 class="mt-4">Replacement has expired:</h4>
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Пробег</th>
+                    <th scope="col"></th>
+                    <th scope="col">Запчать</th>
+                    <th scope="col">Цена запчасти</th>
+                    <th scope="col">Цена работы</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      </tr>
+                </tbody>
+              </table>
+            </main>
+          </details> -->
+          <!-- <details>
+            <summary>Future work plan</summary>
+            <main>
+              <div>
+                <table class="table futureWorkPlan col-sm-12 col-md-12 col-lg-12 text-center">
+                  <h4>Future work plan:</h4>
+                  <thead>
+                    <tr>
+                      <th scope="col">Пробег</th>
+                      <th scope="col">Запчать</th>
+                      <th scope="col">Цена запчасти</th>
+                      <th scope="col">Цена работы</th>
+                    </tr>
+                  <tbody>
+                  </tbody>
+                </table>
+              </div>
+            </main>
+          </details> -->
+          <details>
+            <summary>Replaced by</summary>
+            <main>
+              <table class="table replaced col-sm-12 col-md-12 col-lg-12 text-center">
+                <h4>Replaced by:</h4>
+                <thead>
+                  <tr>
+                    <th scope="col">№</th>
+                    <th scope="col">Пробег</th>
+                    <th scope="col">Дата</th>
+                    <th scope="col">Запчать</th>
+                    <th scope="col">Цена запчасти</th>
+                    <th scope="col">Цена работы</th>
+                  </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+              <button class="btn btn-outline-primary col-3 offset-9">Распечатать</button>
+            </main>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Tabs end-->
+    <script type="module" src="../src/modules/main.js"></script>
+</body>
+</html>

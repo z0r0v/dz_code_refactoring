@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import './css/slider.css';
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --may-color-bg1: ghostwhite;
+  --may-color-bg2: black;
+}
+.nav {
+
+  background-color: white;
+  border-radius: 5px;
+}
+
+.table_scrol {
+  overflow-x: auto;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 995px){
+  .table_scrol{
+    font-size: 12px;
+  }
+
+  .table{
+    font-size:12px; 
+   }
+}
+
+.fa-times-circle,
+.fa-check-circle {
+  cursor: pointer;
+}
+
+.outputClock {
+  font-size: 25px;
+}
+
+.output {
+  background-color: var(--white);
+  padding: 5%;
+  border-radius: 5px;
+}
+.logOutClock {
+  border-radius: 5px;
+  border: solid silver 1px;
+}
+.workPlan{
+  background:white;
+}
+
+.requiresReplacement > tbody > tr> td:nth-child(2){
+  color: red;
+}

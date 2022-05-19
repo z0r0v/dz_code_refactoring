@@ -1,0 +1,22 @@
+GET https://my-server-dz25.herokuapp.com/masters HTTP/1.1;
+###
+GET https://my-server-dz25.herokuapp.com/masters HTTP/1.1;
+###
+POST https://my-server-dz25.herokuapp.com/masters HTTP/1.1;
+
+content-type: application/json
+
+{
+  "id": 3,
+  "login": "c",
+  "pasword": "621",
+  "firstName": "Anton",
+  "LastName": "Vasilevsli",
+  "dateEmployment": "2016-07-18T11:24:00.000Z",
+  "categoryHired": 3,
+}
+
+
+
+
+

@@ -1,0 +1,175 @@
+{
+  "masters": [
+    {
+      "id": 1,
+      "login": "",
+      "pasword": "",
+      "firstName": "Vasiliy",
+      "lastName": "Kshishtykov",
+      "dateEmployment": "February 22, 2017 14:24:00",
+      "categoryHired": 1
+    },
+    {
+      "id": 2,
+      "login": "b",
+      "pasword": "321",
+      "firstName": "Genady",
+      "lastName": "Glsdcovxskyi",
+      "dateEmployment": "July 18, 2016 14:24:00",
+      "categoryHired": 1
+    }
+  ],
+  "carsOwners": [
+    {
+      "id":1,
+      "name": "Vasiliy Petrovich",
+      "phone": "+375291111111",
+      "car": [
+        { "id":1,
+          "brand": "audi",
+          "carMileage": 210000,
+          "registerSign": "8888AA-4",
+          "replacementParts": [
+            { "id":"1",
+              "masterName": "Kshishtykov",
+              "replacementMileage": 105000,
+              "data": "01.12.2016",
+              "work": "Thrust Tip Replacement",
+              "nextReplacementMileage": 200000,
+              "priceWork": 20,
+              "priceParts": 35
+            },
+            { 
+              "id":2,
+              "masterName": "Kshishtykov",
+              "replacementMileage": 120000,
+              "data": "10.12.2017",
+              "work": "Needle shaft replacement",
+              "nextReplacementMileage": 200000,
+              "priceWork": 150,
+              "priceParts": 200
+            },
+            { 
+              "id":3,
+              "masterName": "Kshishtykov",
+              "replacementMileage": 140000,
+              "data": "16.12.2018",
+              "work": "Clutch replacement",
+              "nextReplacementMileage": 250000,
+              "priceWork": 150,
+              "priceParts": 800
+            }
+          ],
+          "futureWorkPlan": [
+            { 
+              "id":1,
+              "carMileage": 200000,
+              "masterName": "Kshishtykov",
+              "replacementMileage": 105000,
+              "work": "Thrust Tip Replacement",
+              "nextReplacementMileage": 190000,
+              "priceWork": 20,
+              "priceParts": 35
+            },
+            { 
+              "id":2,
+              "carMileage": 200000,
+              "masterName": "Kshishtykov",
+              "replacementMileage": 120000,
+              "work": "Needle shaft replacement",
+              "nextReplacementMileage": 195000,
+              "priceWork": 150,
+              "priceParts": 200
+            },
+            { 
+              "id":3,
+              "carMileage": 200000,
+              "masterName": "Kshishtykov",
+              "replacementMileage": 140000,
+              "work": "Thrust Tip Replacement",
+              "nextReplacementMileage": 250000,
+              "priceWork": 150,
+              "priceParts": 800
+            }
+          ]
+        }
+      ]
+    },
+    { 
+      "id":2,
+      "name": "Genadiy Andreevitch",
+      "phone": "+375292222222",
+      "car": [
+        { "id":1,
+          "brand": "AlfaRomeo",
+          "carMileage": 210000,
+          "registerSign": "9999AA-4",
+          "replacementParts": [
+            { 
+              "id":1,
+              "masterName": "Kshishtykov",
+              "replacementMileage": 105000,
+              "data": "01.12.2016",
+              "work": "Thrust Tip Replacement",
+              "nextReplacementMileage": 200005,
+              "priceWork": 20,
+              "priceParts": 35
+            },
+            {
+              "id":2,
+              "masterName": "Kshishtykov",
+              "replacementMileage": 120000,
+              "data": "10.12.2017",
+              "work": "Needle shaft replacement",
+              "nextReplacementMileage": 200000,
+              "priceWork": 150,
+              "priceParts": 200
+            },
+            { 
+              "id":3,
+              "masterName": "Kshishtykov",
+              "replacementMileage": 140000,
+              "data": "16.12.2018",
+              "work": "Clutch replacement",
+              "nextReplacementMileage": 250000,
+              "priceWork": 150,
+              "priceParts": 800
+            }
+          ],
+          "futureWorkPlan": [
+            { 
+              "id":1,
+              "carMileage": 200000,
+              "masterName": "Kshishtykov",
+              "replacementMileage": 105000,
+              "work": "Thrust Tip Replacement",
+              "nextReplacementMileage": 190000,
+              "priceWork": 20,
+              "priceParts": 35
+            },
+            { 
+              "id":2,
+              "carMileage": 200000,
+              "masterName": "Kshishtykov",
+              "replacementMileage": 120000,
+              "work": "Needle shaft replacement",
+              "nextReplacementMileage": 195000,
+              "priceWork": 150,
+              "priceParts": 200
+            },
+            { 
+              "id":3,
+              "carMileage": 200000,
+              "masterName": "Kshishtykov",
+              "replacementMileage": 140000,
+              "work": "Thrust Tip Replacement",
+              "nextReplacementMileage": 250000,
+              "priceWork": 150,
+              "priceParts": 800
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "rlmixqql.github",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "jest": "^24.8.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  },
+  "description": "STO_helpper",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "DZ"
+  },
+  "keywords": [
+    "project_Alex"
+  ],
+  "author": "Zhorov Alex",
+  "license": "UNLICENSED"
+}
